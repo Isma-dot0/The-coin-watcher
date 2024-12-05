@@ -1,0 +1,130 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif; /* A cleaner, modern font */
+    margin: 0;
+    padding: 0;
+    background-color: #101010; /* A darker, richer background */
+    color: #eaeaea; /* Softer light text */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #181818; /* A sleek nav background */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #eaeaea;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1e88e5;
+    transform: scale(1.1); /* Slight hover effect */
+}
+
+/* Header */
+header {
+    background-color: #181818; /* Matches the nav */
+    color: #eaeaea;
+    text-align: center;
+    padding: 20px 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.7rem;
+    color: #1e88e5; /* Highlight color */
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #bbbbbb; /* Softer subtext */
+}
+
+/* Table Styling */
+table {
+    width: 85%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #1b1b1b;
+    color: #eaeaea;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+table th {
+    background-color: #252525;
+    color: #1e88e5; /* Highlights for table headers */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+table tr:hover {
+    background-color: #2a2a2a; /* Smooth row hover effect */
+}
+
+button {
+    background-color: #1e88e5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #1565c0;
+    transform: scale(1.05); /* Slight pop on hover */
+}
+
+/* Portfolio Total Value */
+#total-value {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 25px;
+    color: #1e88e5; /* Highlighted total value */
+    font-weight: bold;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    width: 400px;
+    height: auto;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
